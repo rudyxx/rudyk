@@ -1,0 +1,21 @@
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.exe.config
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.exe
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators_stud.csprojResolveAssemblyReference.cache
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators.exe
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloOperators_bysteps\Begin\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.exe.config
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloOperators_bysteps\Begin\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators.exe
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloOperators_bysteps\Begin\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloOperators_bysteps\Begin\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.exe
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloOperators_bysteps\Begin\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloOperators_bysteps\Begin\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators_stud.csprojResolveAssemblyReference.cache
+D:\Programming literature\Brain AcademyHomeWork\HelloOperators_bysteps\Begin\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.exe.config
+D:\Programming literature\Brain AcademyHomeWork\HelloOperators_bysteps\Begin\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators.exe
+D:\Programming literature\Brain AcademyHomeWork\HelloOperators_bysteps\Begin\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators.pdb
+D:\Programming literature\Brain AcademyHomeWork\HelloOperators_bysteps\Begin\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.exe
+D:\Programming literature\Brain AcademyHomeWork\HelloOperators_bysteps\Begin\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.pdb
+D:\Programming literature\Brain AcademyHomeWork\HelloOperators_bysteps\Begin\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators_stud.csprojResolveAssemblyReference.cache
+D:\Downloads\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.exe.config
+D:\Downloads\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators.exe
+D:\Downloads\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators.pdb
