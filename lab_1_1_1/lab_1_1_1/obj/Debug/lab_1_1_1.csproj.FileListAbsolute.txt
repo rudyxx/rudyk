@@ -1,0 +1,2 @@
+D:\Projects\C#\lab_1_1_1\lab_1_1_1\bin\Debug\lab_1_1_1.exe.config
+D:\Projects\C# Projects\lab_1_1_1\lab_1_1_1\bin\Debug\lab_1_1_1.exe.config

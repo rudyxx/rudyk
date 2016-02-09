@@ -1,0 +1,9 @@
+D:\Projects\C#\lab_1_1_5\lab_1_1_5\bin\Debug\lab_1_1_5.exe.config
+D:\Projects\C#\lab_1_1_5\lab_1_1_5\bin\Debug\lab_1_1_5.exe
+D:\Projects\C#\lab_1_1_5\lab_1_1_5\bin\Debug\lab_1_1_5.pdb
+D:\Projects\C#\lab_1_1_5\lab_1_1_5\obj\Debug\lab_1_1_5.csprojResolveAssemblyReference.cache
+D:\Projects\C#\lab_1_1_5\lab_1_1_5\obj\Debug\lab_1_1_5.exe
+D:\Projects\C#\lab_1_1_5\lab_1_1_5\obj\Debug\lab_1_1_5.pdb
+D:\Projects\C# Projects\lab_1_1_5\lab_1_1_5\bin\Debug\lab_1_1_5.exe.config
+D:\Projects\C# Projects\lab_1_1_5\lab_1_1_5\obj\Debug\lab_1_1_5.exe
+D:\Projects\C# Projects\lab_1_1_5\lab_1_1_5\obj\Debug\lab_1_1_5.pdb
