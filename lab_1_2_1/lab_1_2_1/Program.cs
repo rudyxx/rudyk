@@ -17,15 +17,17 @@ namespace lab_1_2_1
 
     public class LibraryUser : ILibraryUser
     {
-        private List<string> __booklist = new List<string>();
-        private int books_cnt;
+        int curBookIt = 0;
+        private const int bufferSize = 5;
+        private string[] __booklist = new string[bufferSize];
+        private int books_cnt = 10;
 
         //private fields
         private string __FirstName;
         private string __LastName;
         private int __Id;
         private int __BookLimit;
-
+        
         // read only properties
         public int BookLimit { get { return __BookLimit; } }
         public string FirstName { get { return __FirstName; } }
@@ -78,23 +80,58 @@ namespace lab_1_2_1
 
         public void AddBook(string addBookName)
         {
-            __booklist.Add(addBookName);
+            if (__booklist.Length <= curBookIt)
+            {
+                //create temp array where we will store our booklist array
+                string []temAr = new string[__booklist.Length];
+                //save booklist to temporary aray
+                temAr = __booklist;
+                //delete booklist info
+                __booklist = null;
+                //recreate booklist array with highter capacity
+                __booklist = new string[temAr.Length + bufferSize];
+                //comeback all books from temp array in extended booklist
+                for (int i = 0; i < temAr.Length; i++)
+                {
+                    __booklist[i] = temAr[i];
+                }
+                //delete temp array
+                temAr = null;
+            }
+            __booklist[curBookIt++] = addBookName;
+        }
+
+        //show all books
+        public void ShowBooks()
+        {
+            for (int i = 0; i < __booklist.Length; i++)
+            {
+                Console.WriteLine(__booklist[i]);
+            }
         }
 
         public void RemoveBook(string removeBookName)
         {
-            for (int i = 0; i < __booklist.Count; i++)
+            for (int i = 0; i < __booklist.Length; i++)
             {
-                if(__booklist.Remove(removeBookName))
-                    Console.WriteLine("Book removed");
-                else
+                if (__booklist[i] == removeBookName)
+                {
+                    for (int j = i; j < __booklist.Length-1; j++ )
+                    {
+                        __booklist[j] = __booklist[j + 1];
+
+                    }
+                        Console.WriteLine("Book removed");
+                        break;
+                }
+                else if (i >= __booklist.Length-1)
                     Console.WriteLine("Nosuch book here");
             }
         }
 
         public void BookInfo(int numOfBook)
         {
-            if (numOfBook >= 0 && numOfBook <= __booklist.Count)
+            if (numOfBook >= 0 && numOfBook <= __booklist.Length)
                 Console.WriteLine("The name of book is {0}", __booklist[numOfBook]);
             else
                 Console.WriteLine("Out of range bro! Out of range.... :'(");
@@ -102,7 +139,10 @@ namespace lab_1_2_1
 
         public int BookCount()
         {
-            return __booklist.Count;
+            int result = 0;
+            while (__booklist[result] != null)
+            { result++; }
+            return result;
         }
     }
 
@@ -120,19 +160,48 @@ namespace lab_1_2_1
             //add a couple of books
             user1.AddBook("War and peace");
             user1.AddBook("Nyan cat tales");
+            user1.AddBook("ULYSSES");
+            user1.AddBook("THE GREAT GATSBY");
+            user1.AddBook("A PORTRAIT OF THE ARTIST AS A YOUNG MAN");
+            user1.AddBook("LOLITA");
+            user1.AddBook("BRAVE NEW WORLD");
+            user1.AddBook("THE SOUND AND THE FURY");
+            user1.AddBook("CATCH-22");
+            user1.AddBook("DARKNESS AT NOON");
+            user1.AddBook("SONS AND LOVERSe");
+            user1.AddBook("THE GRAPES OF WRATH");
+            user1.AddBook("UNDER THE VOLCANO");
+            user1.AddBook("ATLAS SHRUGGED");
+            user1.AddBook("THE FOUNTAINHEAD");
+            user1.AddBook("BATTLEFIELD EARTH");
+            user1.AddBook("THE LORD OF THE RINGS");
+            user1.AddBook("TO KILL A MOCKINGBIRD");
 
+            //user1.ShowBooks();
             //show how many books user have
             Console.WriteLine("you have {0} books", user1.BookCount());
 
             //remove book by the name
             user1.RemoveBook("War and peace");
+            user1.RemoveBook("THE SOUND AND THE FURY");
+            user1.RemoveBook("CATCH-22");
+            user1.RemoveBook("DARKNESS AT NOON");
+            user1.RemoveBook("SONS AND LOVERSe");
+            user1.RemoveBook("THE GRAPES OF WRATH");
+            user1.RemoveBook("UNDER THE VOLCANO");
+            user1.RemoveBook("ATLAS SHRUGGED");
+            user1.RemoveBook("THE FOUNTAINHEAD");
+            user1.RemoveBook("BATTLEFIELD EARTH");
+            user1.RemoveBook("THE LORD OF THE RINGS");
+            user1.RemoveBook("TO KILL A MOCKINGBIRD");
 
+            //user1.ShowBooks();
             //show how many books user have after removing
             Console.WriteLine("after removing you have {0} books", user1.BookCount());
 
             //show books info
             user1.BookInfo(0);
-            user1.BookInfo(2); //special error that must tell to user that his input is out of range
+            user1.BookInfo(2000); //special "out of range" error 
 
 
             //new user which  created by parameter constructor
