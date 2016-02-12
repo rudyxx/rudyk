@@ -99,6 +99,7 @@ namespace lab_1_2_1
                 temAr = null;
             }
             __booklist[curBookIt++] = addBookName;
+            Console.WriteLine("{0} added", addBookName);
         }
 
         //show all books
@@ -106,7 +107,8 @@ namespace lab_1_2_1
         {
             for (int i = 0; i < __booklist.Length; i++)
             {
-                Console.WriteLine(__booklist[i]);
+                if (__booklist[i] != null)  
+                    Console.WriteLine(__booklist[i]);
             }
         }
 
@@ -116,12 +118,13 @@ namespace lab_1_2_1
             {
                 if (__booklist[i] == removeBookName)
                 {
+                    string tempBookName = __booklist[i];
                     for (int j = i; j < __booklist.Length-1; j++ )
                     {
                         __booklist[j] = __booklist[j + 1];
 
                     }
-                        Console.WriteLine("Book removed");
+                    Console.WriteLine("{0} removed", tempBookName);
                         break;
                 }
                 else if (i >= __booklist.Length-1)
@@ -158,8 +161,14 @@ namespace lab_1_2_1
             Console.WriteLine("Name: {0} \nsurname: {1} \nID: {2}", user1.FirstName, user1.LastName, user1.Id);
 
             //add a couple of books
+            user1.AddBook("THE GRAPES OF WRATH");
+            user1.AddBook("BATTLEFIELD EARTH");
+            user1.AddBook("THE LORD OF THE RINGS");
             user1.AddBook("War and peace");
             user1.AddBook("Nyan cat tales");
+            user1.AddBook("UNDER THE VOLCANO");
+            user1.AddBook("ATLAS SHRUGGED");
+            user1.AddBook("THE FOUNTAINHEAD");
             user1.AddBook("ULYSSES");
             user1.AddBook("THE GREAT GATSBY");
             user1.AddBook("A PORTRAIT OF THE ARTIST AS A YOUNG MAN");
@@ -169,12 +178,6 @@ namespace lab_1_2_1
             user1.AddBook("CATCH-22");
             user1.AddBook("DARKNESS AT NOON");
             user1.AddBook("SONS AND LOVERSe");
-            user1.AddBook("THE GRAPES OF WRATH");
-            user1.AddBook("UNDER THE VOLCANO");
-            user1.AddBook("ATLAS SHRUGGED");
-            user1.AddBook("THE FOUNTAINHEAD");
-            user1.AddBook("BATTLEFIELD EARTH");
-            user1.AddBook("THE LORD OF THE RINGS");
             user1.AddBook("TO KILL A MOCKINGBIRD");
 
             //user1.ShowBooks();
