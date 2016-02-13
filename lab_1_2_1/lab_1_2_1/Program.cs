@@ -17,6 +17,7 @@ namespace lab_1_2_1
 
     public class LibraryUser : ILibraryUser
     {
+
         int curBookIt = 0;
         private const int bufferSize = 5;
         private string[] __booklist = new string[bufferSize];
@@ -102,7 +103,7 @@ namespace lab_1_2_1
             Console.WriteLine("{0} added", addBookName);
         }
 
-        //show all books
+        //show all books my own method.
         public void ShowBooks()
         {
             for (int i = 0; i < __booklist.Length; i++)
@@ -125,6 +126,7 @@ namespace lab_1_2_1
 
                     }
                     Console.WriteLine("{0} removed", tempBookName);
+                    curBookIt--;
                         break;
                 }
                 else if (i >= __booklist.Length-1)
@@ -175,10 +177,6 @@ namespace lab_1_2_1
             user1.AddBook("LOLITA");
             user1.AddBook("BRAVE NEW WORLD");
             user1.AddBook("THE SOUND AND THE FURY");
-            user1.AddBook("CATCH-22");
-            user1.AddBook("DARKNESS AT NOON");
-            user1.AddBook("SONS AND LOVERSe");
-            user1.AddBook("TO KILL A MOCKINGBIRD");
 
             //user1.ShowBooks();
             //show how many books user have
@@ -197,6 +195,14 @@ namespace lab_1_2_1
             user1.RemoveBook("BATTLEFIELD EARTH");
             user1.RemoveBook("THE LORD OF THE RINGS");
             user1.RemoveBook("TO KILL A MOCKINGBIRD");
+
+            //add a couple of books again
+            user1.AddBook("CATCH-22");
+            user1.AddBook("DARKNESS AT NOON");
+            user1.AddBook("SONS AND LOVERSe");
+            user1.AddBook("TO KILL A MOCKINGBIRD");
+
+
 
             //user1.ShowBooks();
             //show how many books user have after removing
