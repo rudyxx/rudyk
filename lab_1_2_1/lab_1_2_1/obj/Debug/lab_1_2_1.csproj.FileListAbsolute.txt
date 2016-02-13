@@ -1,0 +1,15 @@
+D:\Projects\C#\lab_1_2_1\lab_1_2_1\bin\Debug\lab_1_2_1.exe.config
+D:\Projects\C#\lab_1_2_1\lab_1_2_1\obj\Debug\lab_1_2_1.csprojResolveAssemblyReference.cache
+D:\Projects\C#\lab_1_2_1\lab_1_2_1\bin\Debug\lab_1_2_1.exe
+D:\Projects\C#\lab_1_2_1\lab_1_2_1\bin\Debug\lab_1_2_1.pdb
+D:\Projects\C#\lab_1_2_1\lab_1_2_1\obj\Debug\lab_1_2_1.exe
+D:\Projects\C#\lab_1_2_1\lab_1_2_1\obj\Debug\lab_1_2_1.pdb
+D:\MyRepos\rudyk\lab_1_2_1\lab_1_2_1\bin\Debug\lab_1_2_1.exe.config
+D:\MyRepos\rudyk\lab_1_2_1\lab_1_2_1\obj\Debug\lab_1_2_1.exe
+D:\MyRepos\rudyk\lab_1_2_1\lab_1_2_1\obj\Debug\lab_1_2_1.pdb
+D:\MyRepos\rudyk\lab_1_2_1\lab_1_2_1\bin\Debug\lab_1_2_1.exe
+D:\MyRepos\rudyk\lab_1_2_1\lab_1_2_1\bin\Debug\lab_1_2_1.pdb
+D:\MyRepos\rudyk\lab_1_2_1\lab_1_2_1\obj\Debug\lab_1_2_1.csprojResolveAssemblyReference.cache
+D:\MyRepos\lab_1_2_1\lab_1_2_1\bin\Debug\lab_1_2_1.exe.config
+D:\MyRepos\lab_1_2_1\lab_1_2_1\obj\Debug\lab_1_2_1.exe
+D:\MyRepos\lab_1_2_1\lab_1_2_1\obj\Debug\lab_1_2_1.pdb

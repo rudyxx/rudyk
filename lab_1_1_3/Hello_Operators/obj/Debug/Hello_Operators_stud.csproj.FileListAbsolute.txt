@@ -19,3 +19,6 @@ D:\Programming literature\Brain AcademyHomeWork\HelloOperators_bysteps\Begin\Hel
 D:\Downloads\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.exe.config
 D:\Downloads\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators.exe
 D:\Downloads\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators.pdb
+D:\MyRepos\lab_1_1_3\Hello_Operators\bin\Debug\Hello_Operators.exe.config
+D:\MyRepos\lab_1_1_3\Hello_Operators\obj\Debug\Hello_Operators.exe
+D:\MyRepos\lab_1_1_3\Hello_Operators\obj\Debug\Hello_Operators.pdb
