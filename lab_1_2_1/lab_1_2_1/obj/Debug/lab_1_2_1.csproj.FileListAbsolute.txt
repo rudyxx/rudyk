@@ -10,6 +10,9 @@ D:\MyRepos\rudyk\lab_1_2_1\lab_1_2_1\obj\Debug\lab_1_2_1.pdb
 D:\MyRepos\rudyk\lab_1_2_1\lab_1_2_1\bin\Debug\lab_1_2_1.exe
 D:\MyRepos\rudyk\lab_1_2_1\lab_1_2_1\bin\Debug\lab_1_2_1.pdb
 D:\MyRepos\rudyk\lab_1_2_1\lab_1_2_1\obj\Debug\lab_1_2_1.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
 D:\MyRepos\lab_1_2_1\lab_1_2_1\bin\Debug\lab_1_2_1.exe.config
 D:\MyRepos\lab_1_2_1\lab_1_2_1\obj\Debug\lab_1_2_1.exe
 D:\MyRepos\lab_1_2_1\lab_1_2_1\obj\Debug\lab_1_2_1.pdb
+=======
+>>>>>>> 10983e943e9452772545d5c56dfa3935f0edf111
