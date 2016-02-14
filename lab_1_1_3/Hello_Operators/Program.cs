@@ -45,9 +45,11 @@ namespace HelloOperators_stud
             Console.ReadLine();
         }
         #region farmer
+        //RV: It works. But the user has to do all the steps until he knows result, although sombody may be eaten earlier.
+        //RV: Consider checking the right decesion on every step.
         static void Farmer_puzzle()
         {
-
+            
             Console.ForegroundColor = ConsoleColor.Yellow;
             //showing user options
             Console.WriteLine("There: farmer and wolf - 1");
