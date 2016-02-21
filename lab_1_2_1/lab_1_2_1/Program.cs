@@ -17,7 +17,7 @@ namespace lab_1_2_1
 
     public class LibraryUser : ILibraryUser
     {
-
+        //RV: It is not recommended to use double underscore (__) at the beginning of the identifier. Some reserved keywords has this notation and your identifiers may interfere with them 
         int curBookIt = 0;
         private const int bufferSize = 5;
         private string[] __booklist = new string[bufferSize];
@@ -28,8 +28,9 @@ namespace lab_1_2_1
         private string __LastName;
         private int __Id;
         private int __BookLimit;
-        
+
         // read only properties
+        //RV: You can use automatic properties with private setters. E.g. public int BookLimit { get; private set;}
         public int BookLimit { get { return __BookLimit; } }
         public string FirstName { get { return __FirstName; } }
         public string LastName { get { return __LastName; } }
@@ -37,13 +38,14 @@ namespace lab_1_2_1
         //get set phone number
         public int Phone { get ;  set ; }
 
-        //default constructor
+        //default constructor                     
         public LibraryUser()
         {
+            //RV: Do we need all these initialization? What are they for? This contructor can be left empty.
             __FirstName = "No Name";
             __LastName = "X";
             __Id = 000000;
-            Phone = 00000000;
+            Phone = 00000000;//RV: 00000000 == 0
             __BookLimit = 0;
         }
 
@@ -63,7 +65,7 @@ namespace lab_1_2_1
             get
             {
                 string temp;
-                if (BookList >= 0 && BookList <= books_cnt - 1)
+                if (BookList >= 0 && BookList <= books_cnt - 1) //RV:  BookList <= books_cnt - 1 <=> BookList < books_cnt
                 { temp = __booklist[BookList]; }
                 else 
                 { temp = ""; }
@@ -83,12 +85,20 @@ namespace lab_1_2_1
         {
             if (__booklist.Length <= curBookIt)
             {
+                //RV: This can be accomplished with less lines of code
+                //RV: string[] tempArray = new string[__booklist.Length + bufferSize];
+                //RV: for (int i = 0; i < __booklist.Length; i++)
+                //RV: {
+                //RV:   tempArray[i] = __booklist[i];
+                //RV: }
+                //RV: __booklist = tempArray;
+
                 //create temp array where we will store our booklist array
-                string []temAr = new string[__booklist.Length];
+                string[]temAr = new string[__booklist.Length];
                 //save booklist to temporary aray
                 temAr = __booklist;
                 //delete booklist info
-                __booklist = null;
+                __booklist = null; //RV: No need to assign null
                 //recreate booklist array with highter capacity
                 __booklist = new string[temAr.Length + bufferSize];
                 //comeback all books from temp array in extended booklist
@@ -144,6 +154,7 @@ namespace lab_1_2_1
 
         public int BookCount()
         {
+            //RV: You store the book quantity in curBookIt variable, right? Why don't you just return its value?
             int result = 0;
             while (__booklist[result] != null)
             { result++; }
