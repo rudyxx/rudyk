@@ -1,0 +1,9 @@
+D:\Projects\C#\lab_1_2_3\lab_1_2_3\bin\Debug\lab_1_2_3.exe.config
+D:\Projects\C#\lab_1_2_3\lab_1_2_3\bin\Debug\lab_1_2_3.exe
+D:\Projects\C#\lab_1_2_3\lab_1_2_3\bin\Debug\lab_1_2_3.pdb
+D:\Projects\C#\lab_1_2_3\lab_1_2_3\obj\Debug\lab_1_2_3.csprojResolveAssemblyReference.cache
+D:\Projects\C#\lab_1_2_3\lab_1_2_3\obj\Debug\lab_1_2_3.exe
+D:\Projects\C#\lab_1_2_3\lab_1_2_3\obj\Debug\lab_1_2_3.pdb
+D:\MyRepos\rudyk\lab_1_2_3\lab_1_2_3\bin\Debug\lab_1_2_3.exe.config
+D:\MyRepos\rudyk\lab_1_2_3\lab_1_2_3\obj\Debug\lab_1_2_3.exe
+D:\MyRepos\rudyk\lab_1_2_3\lab_1_2_3\obj\Debug\lab_1_2_3.pdb
