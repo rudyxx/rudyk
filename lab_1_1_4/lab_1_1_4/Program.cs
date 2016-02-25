@@ -109,9 +109,11 @@ namespace lab_1_1_4
             for (int i = 0; i < departments.Length; i++)
             {
                 for (int j = 0; j < departments[i].Length; j++)
-                {
+                {                    
                     if (departments[i][j].typeOfPC == ComputerType.Desktop)
                     {
+                        //RV: Do we need to duplicate this line of code in every if body? 
+                        //RV: Consider moving this line outside if, since we always execute it, no matter which if statement we enter.
                         totalComputersAmount++;
                         totalDesctopComputers++;
                     }
@@ -134,6 +136,8 @@ namespace lab_1_1_4
             // compare HHD of every computer between each other; 
             // find position of this computer in array (indexes)
             // Note: use loops and if-else statements
+
+            //RV: I would use two variables with appropriate names here instead of two elements long array. It is just increase code readability. 
             int[] topHDD = new int[2];
             for (int i = 0; i < departments.Length; i++)
             {
