@@ -98,9 +98,10 @@ namespace lab_1_2_1
                 }
                 //delete temp array
                 temAr = null;
+
             }
             __booklist[curBookIt++] = addBookName;
-            Console.WriteLine("{0} added", addBookName);
+            Console.WriteLine("+++{0} added+++", addBookName);
         }
 
         //show all books my own method.
@@ -125,12 +126,12 @@ namespace lab_1_2_1
                         __booklist[j] = __booklist[j + 1];
 
                     }
-                    Console.WriteLine("{0} removed", tempBookName);
+                    Console.WriteLine("---{0} removed!---", tempBookName);
                     curBookIt--;
                         break;
                 }
                 else if (i >= __booklist.Length-1)
-                    Console.WriteLine("Nosuch book here");
+                    Console.WriteLine("***No \"{0}\" book here***", removeBookName);
             }
         }
 
