@@ -1,0 +1,5 @@
+c:\users\mas\documents\visual studio 2015\Projects\lab_1_4_1\lab_1_4_1\bin\Debug\lab_1_4_1.exe.config
+c:\users\mas\documents\visual studio 2015\Projects\lab_1_4_1\lab_1_4_1\bin\Debug\lab_1_4_1.exe
+c:\users\mas\documents\visual studio 2015\Projects\lab_1_4_1\lab_1_4_1\bin\Debug\lab_1_4_1.pdb
+c:\users\mas\documents\visual studio 2015\Projects\lab_1_4_1\lab_1_4_1\obj\Debug\lab_1_4_1.exe
+c:\users\mas\documents\visual studio 2015\Projects\lab_1_4_1\lab_1_4_1\obj\Debug\lab_1_4_1.pdb
