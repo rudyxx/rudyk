@@ -1,0 +1,6 @@
+D:\Projects\C# Projects\AirPort\AirPort\bin\Debug\AirPort.exe.config
+D:\Projects\C# Projects\AirPort\AirPort\obj\Debug\AirPort.csprojResolveAssemblyReference.cache
+D:\Projects\C# Projects\AirPort\AirPort\bin\Debug\AirPort.exe
+D:\Projects\C# Projects\AirPort\AirPort\bin\Debug\AirPort.pdb
+D:\Projects\C# Projects\AirPort\AirPort\obj\Debug\AirPort.exe
+D:\Projects\C# Projects\AirPort\AirPort\obj\Debug\AirPort.pdb

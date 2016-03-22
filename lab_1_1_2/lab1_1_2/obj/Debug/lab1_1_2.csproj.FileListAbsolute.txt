@@ -7,3 +7,6 @@ D:\Projects\C#\lab1_1_2\lab1_1_2\obj\Debug\lab1_1_2.pdb
 D:\Projects\C# Projects\lab1_1_2\lab1_1_2\bin\Debug\lab1_1_2.exe.config
 D:\Projects\C# Projects\lab1_1_2\lab1_1_2\obj\Debug\lab1_1_2.exe
 D:\Projects\C# Projects\lab1_1_2\lab1_1_2\obj\Debug\lab1_1_2.pdb
+D:\MyRepos\rudyk\lab_1_1_2\lab1_1_2\bin\Debug\lab1_1_2.exe.config
+D:\MyRepos\rudyk\lab_1_1_2\lab1_1_2\obj\Debug\lab1_1_2.exe
+D:\MyRepos\rudyk\lab_1_1_2\lab1_1_2\obj\Debug\lab1_1_2.pdb
