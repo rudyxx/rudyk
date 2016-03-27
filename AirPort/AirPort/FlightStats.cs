@@ -56,6 +56,11 @@ namespace AirPort
                     item.dateTime.Hour, item.dateTime.Minute, item.dateTime.Second, item.flyNumber, item.cityPort, item.terminal, item.FlightStatus.ToString(), item.gate);
             }
         }
+
+        public void AddArrivalFlight(DateTime datetime, )
+        {
+            Arrival.Add()
+        }
     }
 
     

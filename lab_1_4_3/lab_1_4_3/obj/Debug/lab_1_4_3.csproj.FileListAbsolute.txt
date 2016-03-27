@@ -1,0 +1,6 @@
+D:\Projects\C# Projects\lab_1_4_3\lab_1_4_3\bin\Debug\lab_1_4_3.exe.config
+D:\Projects\C# Projects\lab_1_4_3\lab_1_4_3\obj\Debug\lab_1_4_3.csprojResolveAssemblyReference.cache
+D:\Projects\C# Projects\lab_1_4_3\lab_1_4_3\bin\Debug\lab_1_4_3.exe
+D:\Projects\C# Projects\lab_1_4_3\lab_1_4_3\bin\Debug\lab_1_4_3.pdb
+D:\Projects\C# Projects\lab_1_4_3\lab_1_4_3\obj\Debug\lab_1_4_3.exe
+D:\Projects\C# Projects\lab_1_4_3\lab_1_4_3\obj\Debug\lab_1_4_3.pdb

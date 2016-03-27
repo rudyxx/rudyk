@@ -4,3 +4,6 @@ D:\Projects\C# Projects\AirPort\AirPort\bin\Debug\AirPort.exe
 D:\Projects\C# Projects\AirPort\AirPort\bin\Debug\AirPort.pdb
 D:\Projects\C# Projects\AirPort\AirPort\obj\Debug\AirPort.exe
 D:\Projects\C# Projects\AirPort\AirPort\obj\Debug\AirPort.pdb
+D:\MyRepos\rudyk\AirPort\AirPort\bin\Debug\AirPort.exe.config
+D:\MyRepos\rudyk\AirPort\AirPort\obj\Debug\AirPort.exe
+D:\MyRepos\rudyk\AirPort\AirPort\obj\Debug\AirPort.pdb

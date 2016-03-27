@@ -29,7 +29,6 @@ namespace AirPort
             _dateOfBirth = dateOfBirth;
             _sex = sex;
             _ComfortClass = ComfortClass;
-
         }
     }
 
