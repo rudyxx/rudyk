@@ -4,3 +4,6 @@ D:\Projects\C# Projects\lab_1_6_1\lab_1_6_1\bin\Debug\lab_1_6_1.pdb
 D:\Projects\C# Projects\lab_1_6_1\lab_1_6_1\obj\Debug\lab_1_6_1.csprojResolveAssemblyReference.cache
 D:\Projects\C# Projects\lab_1_6_1\lab_1_6_1\obj\Debug\lab_1_6_1.exe
 D:\Projects\C# Projects\lab_1_6_1\lab_1_6_1\obj\Debug\lab_1_6_1.pdb
+D:\MyRepos\rudyk\lab_1_6_1\lab_1_6_1\bin\Debug\lab_1_6_1.exe.config
+D:\MyRepos\rudyk\lab_1_6_1\lab_1_6_1\obj\Debug\lab_1_6_1.exe
+D:\MyRepos\rudyk\lab_1_6_1\lab_1_6_1\obj\Debug\lab_1_6_1.pdb

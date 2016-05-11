@@ -31,7 +31,6 @@ namespace lab_1_6_1
             thread_for_AddingOne2.Join();
             thread_for_AddingCustom.Join();
             thread_for_Stop.Join();
-
         }
     }
 }

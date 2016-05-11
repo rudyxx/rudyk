@@ -8,15 +8,21 @@ namespace lab_1_4_1
 {
     class OnlineShop
     {
+        public string shopName;
+
         // 4) declare event of type EventHandler<GoodsInfoEventArgs>
         public event EventHandler<GoodsInfoEventArgs> ev;
-        
+
+        public OnlineShop(string Name)
+        {
+            shopName = Name;
+        }
         // 5) declare method NewGoods for event initiation
         // use parameter string to get GoodsName
         public void NewGoods(string GoodsName, float GoodCost)
         {
             if (ev != null)
-                ev(this, new GoodsInfoEventArgs(GoodsName, GoodCost));
+                ev(this, new GoodsInfoEventArgs(GoodsName, GoodCost, shopName));
         }
         
         // don't forget to check if event is not null

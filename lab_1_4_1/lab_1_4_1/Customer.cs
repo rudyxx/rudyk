@@ -23,7 +23,7 @@ namespace lab_1_4_1
 
         public void GotNewGoods(object sender, GoodsInfoEventArgs e)
         {
-            Console.WriteLine(@"Dear {0}, We got a new goods, its ""{1}"", cost - {2}griven", __name, e.GoodsName, e.Cost);
+            Console.WriteLine(@"Dear {0}, in {3} is new goods, its ""{1}"", cost - {2}griven", __name, e.GoodsName, e.Cost, e.ShopName);
         }
 
     }

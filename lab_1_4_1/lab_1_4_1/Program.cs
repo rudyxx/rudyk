@@ -11,7 +11,7 @@ namespace lab_1_4_1
         static void Main(string[] args)
         {
             // 9) declare object of OnlineShop 
-            OnlineShop Otvertka = new OnlineShop();
+            OnlineShop Otvertka = new OnlineShop("Otvertka");
 
             // 10) declare several objects of Customer
             Customer c1 = new Customer("Jhon");

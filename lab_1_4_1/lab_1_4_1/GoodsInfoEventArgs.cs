@@ -11,13 +11,15 @@ namespace lab_1_4_1
     {
         // 2) declare property GoodsName
         // think about get and set attributes
-        public string GoodsName { get;  private set; }
+        public string GoodsName { get; private set; }
         public float Cost { get; private set; }
+        public string ShopName { get; private set; }
         // 3) declare constructor to initialize GoodsName
-        public GoodsInfoEventArgs(string message, float cost )
+        public GoodsInfoEventArgs(string message, float cost, string ShopName)
         {
             GoodsName = message;
             Cost = cost;
+            this.ShopName = ShopName;
         }
     }
 }
